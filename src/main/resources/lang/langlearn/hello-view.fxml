@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="background" fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lang.langlearn.HelloController">
+   <children>
+      <Line endX="146.800048828125" endY="-3.814697265625E-6" layoutX="521.0" layoutY="31.0" startX="-159.39999389648438" startY="-3.814697265625E-6" />
+      <TextField fx:id="langTextBox" layoutX="426.0" layoutY="41.0" onKeyPressed="#enterPressed" prefHeight="26.0" prefWidth="178.0" promptText="Enter English Word" />
+      <Button id="submitButton" layoutX="746.0" layoutY="19.0" mnemonicParsing="false" onAction="#parseAndStore" prefHeight="38.0" prefWidth="171.0" text="Submit" />
+      <Button id="matchesButton" layoutX="27.0" layoutY="18.0" mnemonicParsing="false" onAction="#translateAndStore" text="Show Possible Matches" />
+      <TextField fx:id="ansBox" layoutX="418.0" layoutY="344.0" prefHeight="35.0" prefWidth="170.0" promptText="English : Spanish" />
+      <Text layoutX="434.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter words to match, then type out the matching Spanish word in the text box below. After each guess click submit to see if you are correct." wrappingWidth="139.2">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Text>
+      <Text fx:id="label" layoutX="426.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="228.000048828125">
+         <font>
+            <Font name="Comic Sans MS" size="35.0" />
+         </font>
+      </Text>
+      <Label fx:id="MatchingScreen" layoutX="372.0" layoutY="14.0" prefHeight="18.0" prefWidth="60.0" text="Matching" />
+      <Label fx:id="MultipleChoiceScreen" layoutX="493.0" layoutY="14.0" onMouseClicked="#switchToSpellingScreen" text="Spelling" textFill="#7e7c7c" />
+      <Label layoutX="626.0" layoutY="14.0" onMouseClicked="#switchToTranslationScreen" text="Translation" textFill="#6e6e6e" />
+   </children>
+</AnchorPane>
