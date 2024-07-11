@@ -18,6 +18,7 @@ practice sheet and hide the Spanish translations or have to write down a lot of 
 My experience:
 
 <img src="image0.jpeg" alt="Image 1" style="width: 160px; display: inline-block;">
+
 # Future Plans
 * Add more languages for children who don't take a Spanish class.
 * Make a more advanced section for full sentences.
