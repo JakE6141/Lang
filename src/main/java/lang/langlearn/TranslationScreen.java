@@ -26,7 +26,6 @@ public class TranslationScreen {
     public void switchToMatching(MouseEvent event)throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
         Parent root = loader.load();
-        HelloController helloController = loader.getController();
         String css = getClass().getResource("style.css").toExternalForm();
         scene = new Scene(root,1000, 700);
         scene.getStylesheets().add(css);
@@ -50,7 +49,6 @@ public class TranslationScreen {
     public void switchToSpellingScreen(MouseEvent event)throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("spelling-screen.fxml"));
         Parent root = loader.load();
-        SpellingScreen multipleChoiceController = loader.getController();
         String css = getClass().getResource("style.css").toExternalForm();
         scene = new Scene(root,1000, 700);
         scene.getStylesheets().add(css);
