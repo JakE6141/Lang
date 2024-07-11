@@ -14,14 +14,13 @@ API this application offers three different ways to go about learning. Each diff
 As a child Spanish never came easily to me and I would end up using Quizlet, but I never liked how you have to enter the English word but then also enter the Spanish word. So, since my siblings are now entering
 their journey with Spanish I wanted to make a applicaiton that would ease the process for them. I added games that I would have wanted as a Spanish student; I don't want my siblings to have to take a picture of a 
 practice sheet and hide the Spanish translations or have to write down a lot of flash cards.
-My experience: 
 
-picture
+My experience:
 
-
+<img src="image0.jpeg" alt="Image 1" style="width: 160px; display: inline-block;">
 # Future Plans
 * Add more languages for children who don't take a Spanish class.
 * Make a more advanced section for full sentences.
 * Enhance the GUI overall
 
-# Images and Video
+# Video 
